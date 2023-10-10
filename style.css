@@ -1,0 +1,320 @@
+* {
+    background-color: rgb(7, 55, 64);
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    width: 100%;
+    height: 10%; 
+}
+.navbar nav{
+    display: flex;
+}
+.class{
+    font-size: 40px;
+    color:white;
+    margin-top:18px;
+    margin-left: 50px;
+    display: inline-block;
+
+}
+.navbar ul{
+    margin-left: 315px;
+}
+.navbar ul li {
+    font-size: 20px;
+    display: inline-block;
+    padding: 12px;
+    margin: 2px;
+    margin-left: 20px;
+}
+.navbar li a {
+    text-decoration: none;
+    color: white;
+}
+.navbar li a:hover {
+    color: aqua;
+}
+.main {
+    display: flex;
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 80px;
+    padding: 10px;
+}
+.hello {
+    font-size: 18px;
+    color: white;
+}
+.name {
+    font-size: 55px;
+    color: white;
+}
+
+.about {
+    font-size: 44px;
+    color: rgb(255, 0, 81);
+    font-weight: bold;
+
+}
+
+.moreInfo {
+    font-size: 18px;
+    color: white;
+    margin-top: 10px;
+}
+
+.buttons {
+    font-size: 15px;
+    margin-top: 10px;
+
+
+}
+
+.buttons button {
+    color: white;
+    padding: 5px;
+    margin-top: 10px;
+    margin-right: 10px;
+    padding: 8px;
+    border-radius: 5px;
+    background-color: rgb(255, 0, 81);
+    border-color: rgb(255, 0, 81);
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+.pic{
+    background: none;
+    font-size: 100px;
+    
+}
+.pic img{
+    mix-blend-mode: multiply;
+    height: 30vw;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+
+/* ..........................about........................... */
+
+.aboutMore {
+    padding: 20px 0;
+    color: white;
+    margin: 10px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.H1 {
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+.aboutRow1{
+    flex-basis: 35%;
+}
+.aboutRow1 img{
+    width: 100%;
+    border-radius: 10px;
+    height: 95%;
+}
+
+.aboutRow2 {
+    flex-basis: 60%;
+    margin-right: 10px;
+}
+.aboutRow2 p{
+    font-size: 16px;
+}
+.p {
+    margin-left: 35px;
+    font-weight: 500;
+    margin-top: 35px;
+    font-size: 23px;
+}
+.tabContents {
+    margin-left: -5%;
+}
+.tabContents ul li {
+    list-style: none;
+    margin: 20px 0;
+    font-size: 17px;
+}
+.tabContents ul li span {
+    color: #f3185e;
+    font-size: 15px;
+    font-weight: 600;
+}
+.buttons1{
+    font-size: 15px;
+    margin-top: 10px;
+}
+.buttons1 button{
+    color: white;
+    padding: 5px;
+    margin-top: 65px;
+    margin-right: 10px;
+    padding: 8px;
+    border-radius: 5px;
+    background-color: rgb(255, 0, 81);
+    border-color: rgb(255, 0, 81);
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+/* ...........services............. */
+
+.services{
+    margin: 10px;
+    margin-top: 40px;
+    padding: 10px;
+}
+.servicesList {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 50px;
+    margin-top: 40px;
+    color: white;
+}
+.servicesList i{
+    font-size: 30px;
+    background-color: #262626;
+}
+
+.servicesList a {
+    text-decoration: none;
+    color: rgb(252, 250, 250);
+    font-size: 12px;
+    margin-top: 20px;
+    /* display: inline-block; */
+}
+
+.servicesList div {
+    background-color: #262626;
+    padding: 35px;
+    font-size: 13px;
+    font-weight: 300;
+    border-radius: 10px;
+}
+
+
+.servicesList div h2 {
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    background-color: #262626;
+}
+.servicesList div p{
+    background-color: #262626;
+}
+
+
+.servicesList div: hover {
+    background: #ff004f;
+
+
+}
+
+/* ..........my works........... */
+
+.myWork{
+    margin: 10px;
+    margin-top: 40px;
+    padding: 10px;
+}
+.subtitle{
+    font-size: 40px;
+}
+
+.workList{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 50px;
+    margin-top: 40px;
+    color: white;
+}
+.work{
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+.work img{
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+
+}
+.layer i{
+    color: white;
+}
+
+
+/* .........contact......... */
+
+.contact{
+    margin: 10px;
+    margin-top:40px;
+    padding: 20px;
+}
+.subtitle{
+    color: white;
+    font-size: 40px;
+}
+.contactLeft {
+    flex-basis: 35%;
+    margin-left: -7px;
+
+}
+.contactLeft p{
+    margin-top: 24px;
+    color: white;
+}
+.socialIcons{
+    margin-top: 25px;
+}
+.socialIcons a{
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 40px;
+    color: #ababab;
+    display: inline-block;
+}
+.btn{
+    display: inline-block;
+    background: #ff004f;
+    padding: 8px;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+.contactRight {
+    flex-basis: 60%;
+    margin-top: 16px;
+}
+.contactRight form{
+    width: 100%;
+}
+form input, form textarea{
+    width: 90%;
+    border: 0;
+    outline: none;
+    background-color: #262626;
+    padding: 15px;
+    margin: 10px 0;
+    color: #fff;
+    font-size: 12px;
+    border-radius: 6px;
+
+}
